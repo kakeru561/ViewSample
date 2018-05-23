@@ -8,7 +8,7 @@
     android:background="A1A9BA"
     android:orientation="vertical">
 
-    <TextView
+    <EditText
         android:id="@+id/tvlabeLInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
