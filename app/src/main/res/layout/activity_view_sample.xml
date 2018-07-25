@@ -1,34 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#A1A9BA"
-    android:orientation="vertical">
+<？xml version = " 1.0 " encoding = " utf-8 "？>
 
-    <TextView
-        android:id="@+id/tvLabelInput"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="5dp"
-        android:background="#ffffff"
-        android:text="@string/tv_msg"
-        android:textSize="25sp" />
+< LinearLayout
+xmlns ：android = " http://schemas.android.com/apk/res/android "
+    android ：layout_width = " match_parent "
+    android ：layout_height = " match_parent "
+    android ：background = "＃A1A9BA "
+    android ：orientation = " vertical " >
 
-    <Button
-        android:id="@+id/btSave"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+< TextView
+android：id = " @ + id / tvLavelInput "
+    android：layout_width = " wrap_content "
+    android ：layout_height = " wrap_content "
+    android：layout_marginBottom = " 10dp "
+    android ：layout_marginTop = " 5dp "
+    android ：background = " #ffffff "
+    android ：text = " @文字列/ tv_msg "
+    android ：textSize = " 25sp " />
 
-    <EditText
-        android:id="@+id/etInput"
-        android:layouts_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="25dp"
-        android:layout_marginTop="5dp"
-        android:background="ffffff"
-        android:inputType="text"/>
+< EditText
+android ：id = " @ + id / etInput "
+    android ：layout_width = " match_parent "
+    android ：layout_height = " wrap_content "
+    android ：layout_marginBottom = " 25dp "
+    android ：layout_marginTop = " 5dp "
+    android ：background = " #ffffff "
+    android ：inputType = " text " />
 
-</LinearLayout>
+< LinearLayout
+android ：layout_width = " match_parent "
+    android ：layout_height = " wrap_content "
+    android ：background = "＃df7401 "
+    android ：orientation = " horizo​​ntal " >
+
+< CheckBox
+android ：id = " @ + id / cb_drink "
+    android ：layout_width = " wrap_content "
+    android ：layout_height = " wrap_content "
+    android ：layout_marginRight = " 25dp "
+    android ：background = " #ffffff "
+    android ：text = " @文字列/ cb_drink " />
+
+< CheckBox
+android ：id = " @ + id / cb_food "
+    android ：layout_width = " wrap_content "
+    android ：layout_height = " wrap_content "
+    android ：background = " #ffffff "
+    android ：text = " @文字列/ cb_food " />
+
+    </ LinearLayout >
+
+< ラジオグループ
+android ：layout_width = " match_parent "
+    android ：layout_height = " wrap_content "
+    android ：layout_marginBottom = " 10dp "
+    android ：layout_marginTop = " 10dp "
+    android ：background = "＃df7401 "
+    android ：orientation = " horizo​​ntal "
+    アンドロイド：paddingBottom = " 10dp "
+    android ：paddingTop = " 10dp " >
+
+< RadioButton
+android ：id = " @ + id / rbmale "
+    android ：layout_width = " wrap_content "
+    android ：layout_height = " wrap_content "
+    android ：layout_marginLeft = " 25dp "
+    android ：layout_marginRight = " 25dp "
+    android ：background = " #ffffff "
+    android ：text = " @文字列/ rb_male " />
+
+< RadioButton
+android ：id = " @ + id / rbfemale "
+    android ：layout_width = " wrap_content "
+    android ：layout_height = " wrap_content "
+    android ：background = " #ffffff "
+    android ：text = " @文字列/ rb_female " />
+
+
+    </ RadioGroup >
+
+< スピナー
+android ：id = " @ + id / spCurryList "
+    android ：layout_width = " match_parent "
+    android ：layout_height = " wrap_content "
+    android ：background = " #ffffff "
+    android ：entries = " @ array / sp_currylist "
+    アンドロイド：paddingBottom = " 5dp "
+    android ：paddingTop = " 5dp " />
+
+
+< ボタン
+android ：id = " @ + id / btSave "
+    android ：layout_width = " wrap_content "
+    android ：layout_height = " wrap_content "
+    android ：text = " @文字列/ bt_save " />
+
+< ListView
+android ：layout_width = " match_parent "
+    android ：layout_height = " 0dp "
+    android ：layout_weight = " 1 "
+    android ：background = " #ffffff "
+    android ：entries = " @ array / lv_cocktaillist " />
+
+    </ LinearLayout >
